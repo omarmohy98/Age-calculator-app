@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <title>Age calculator app</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/responsive-layout.css" />
+  </head>
+  <body>
+    <main>
+      <form action="#">
+        <div class="container">
+          <label for="day">day</label>
+          <input
+            type="text"
+            id="day"
+            class="input day-input"
+            placeholder="DD"
+            maxlength="2"
+          />
+          <p class="invalid-msg"></p>
+        </div>
+        <div class="container">
+          <label for="month">month</label>
+          <input
+            type="text"
+            id="month"
+            class="input month-input"
+            placeholder="MM"
+            maxlength="2"
+          />
+          <p class="invalid-msg"></p>
+        </div>
+        <div class="container">
+          <label for="year">year</label>
+          <input
+            type="text"
+            id="year"
+            class="input year-input"
+            placeholder="YYYY"
+            maxlength="4"
+          />
+          <p class="invalid-msg"></p>
+        </div>
+        <button class="cal-btn">
+          <img src="assets/images/icon-arrow.svg" />
+        </button>
+      </form>
+      <p class="result"><span>--</span>years</p>
+      <p class="result"><span>--</span>months</p>
+      <p class="result"><span>--</span>days</p>
+    </main>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

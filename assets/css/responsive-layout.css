@@ -1,0 +1,35 @@
+@media (min-width: 320px) {
+  body {
+    padding: 50px 0;
+  }
+  main {
+    width: 95%;
+  }
+  .cal-btn {
+    right: 50%;
+  }
+}
+
+@media (min-width: 620px) {
+  main {
+    width: 80%;
+  }
+}
+
+@media (min-width: 920px) {
+  body {
+    padding: 0;
+  }
+  main {
+    width: 70%;
+  }
+  .cal-btn {
+    right: 0%;
+  }
+}
+
+@media (min-width: 1220px) {
+  main {
+    width: 40%;
+  }
+}
